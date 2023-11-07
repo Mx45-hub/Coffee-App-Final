@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, Param, Post, Render, Res } from '@nestjs/common';
-import { AppService } from './app.service';
-import { coffeedto } from './app.dto';
+import { AppService } from '../Services/app.service';
+import { coffeedto } from '../Data/app.dto';
 
 
 @Controller()
